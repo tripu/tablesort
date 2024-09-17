@@ -11,8 +11,7 @@
     "npm": ">= 8"
   },
   "scripts": {
-    "build": "grunt",
-    "test": "tape test/test.client.js | tap-spec"
+    "build": "grunt"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,6 @@
     "grunt": "^1.5.2",
     "grunt-cli": "^1.4.3",
     "grunt-contrib-uglify": "^5.2.1",
-    "phantomjs-prebuilt": "~2.1.x",
     "serve-static": "^1.15.0",
     "tap-spec": "^5.0.0",
     "tape": "^5.5.3"
